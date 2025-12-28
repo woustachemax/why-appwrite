@@ -25,7 +25,14 @@
     .glow {
       box-shadow: 0 0 40px rgba(253, 54, 110, 0.3);
     }
-  
+    
+    .cta-button {
+      transition: all 0.3s ease;
+    }
+    
+    .cta-button:hover {
+      box-shadow: 0 0 60px rgba(253, 54, 110, 0.6), 0 0 100px rgba(253, 54, 110, 0.4);
+    }
   </style>
 </head>
 <body class="bg-[#0B0B0F] text-white overflow-x-hidden">
@@ -34,9 +41,9 @@
     <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#8B5CF6] opacity-10 blur-[150px] rounded-full"></div>
   </div>
 
-  <div class="relative z-10">
-    <main class="px-6 py-24 ml-0">
-      <div class="max-w-4xl">
+  <div class="relative z-50">
+    <main class="px-12 py-24">
+      <div class="max-w-4xl ml-12">
         <div class="mb-4 text-[#FD366E] font-semibold text-sm tracking-wider uppercase">Application</div>
         
         <h1 class="text-7xl font-black mb-16 leading-[1.1] tracking-tight">
@@ -77,7 +84,7 @@
     </main>
 
     <footer class="py-8 mt-20">
-      <div class="max-w-6xl px-6 text-gray-500 text-sm">
+      <div class="max-w-6xl px-12 ml-12 text-gray-500 text-sm">
         Built to impress
       </div>
     </footer>
